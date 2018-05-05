@@ -1,4 +1,8 @@
-/*this does not work because it wont overwrite the code in the html (bg-light)*/
+
+div.row{
+	background-color: #e9ecef;
+}
+
 nav{
 	background-color: tomato;
 }

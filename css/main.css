@@ -1,3 +1,25 @@
-body{
-  background-color: tomato;
+/*this does not work because it wont overwrite the code in the html (bg-light)*/
+nav{
+	background-color: tomato;
+}
+
+.img-fluid{
+	width: 500px;
+}
+
+.btn{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+@media(max-width: 770px){
+	.img-fluid{
+		width: 50%;
+	}
+}
+
+@media(min-width: 990px){
+	.img-fluid{
+		width: 100%;
+	}
 }
